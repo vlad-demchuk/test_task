@@ -1,0 +1,18 @@
+.coins-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+  &__fetch {
+    width: 100px;
+    height: 50px;
+    margin: 10px 0;
+  }
+
+  &__table {
+    width: 90vw;
+    max-height: 90vh;
+    margin: 10px;
+  }
+}

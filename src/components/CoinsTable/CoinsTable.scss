@@ -1,0 +1,26 @@
+@mixin table-borders {
+  border-collapse: collapse;
+  
+  .coins-table__row,
+  .coins-table__column {
+    border: 2px solid #5d5dee;
+  }
+}
+
+.coins-table {
+  padding: 10px;
+  @include table-borders;
+
+  &__row {
+    height: 27px;
+  }
+
+  &__column-id {
+    width: 30%;
+  }
+
+  &__column-name,
+  &__column-symbol {
+    width: 35%;
+  }
+}

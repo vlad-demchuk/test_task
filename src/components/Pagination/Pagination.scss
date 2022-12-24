@@ -1,0 +1,30 @@
+.pagination {
+  &__list {
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    gap: 8px;
+  }
+
+  &__item {
+    list-style: none;
+
+    &:first-child {
+      margin-right: 10px;
+    }
+
+    &:last-child {
+      margin-left: 10px;
+    }
+  }
+
+  &__button {
+    height: 25px;
+    width: 45px;
+
+    &--active {
+      transform: scale(1.15);
+    }
+  }
+}

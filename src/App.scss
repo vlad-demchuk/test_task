@@ -1,0 +1,15 @@
+.App {
+  &__coins-page {
+    height: 90vh;
+    width: 100vw;
+    margin: 0 auto;
+  }
+}
+
+.button {
+  background-color: transparent;
+  border: 2px solid #5d5dee;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 17px;
+}
